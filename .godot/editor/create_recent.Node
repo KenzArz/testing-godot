@@ -1,0 +1,12 @@
+Area2D
+CollisionShape2D
+Control
+CanvasLayer
+TileMapLayer
+AnimatedSprite2D
+Sprite2D
+VSplitContainer
+AnimationPlayer
+TextureRect
+MarginContainer
+TextureProgressBar

@@ -1,6 +1,7 @@
 [gd_resource type="Theme" format=3 uid="uid://b3klx57slj0l3"]
 
 [ext_resource type="FontFile" uid="uid://i1eetfry6s4h" path="res://assets/theme/soft_retro/Righteous/Righteous-Regular.ttf" id="1_lopid"]
+[ext_resource type="Texture2D" uid="uid://ddglon48ah2cg" path="res://assets/theme/Table.png" id="2_erfda"]
 [ext_resource type="Texture2D" uid="uid://udawlj7nryla" path="res://assets/theme/soft_retro/art/checked.svg" id="2_k0c1y"]
 [ext_resource type="Texture2D" uid="uid://dl5qlemud0d4j" path="res://assets/theme/soft_retro/art/toggle_on.svg" id="2_myavk"]
 [ext_resource type="Texture2D" uid="uid://gameaex7fm1g" path="res://assets/theme/soft_retro/art/toggle_off.svg" id="3_208pi"]
@@ -32,18 +33,9 @@ expand_margin_left = 5.0
 expand_margin_top = 2.0
 expand_margin_right = 5.0
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_lopid"]
-bg_color = Color(0.27451, 0.258824, 0.368627, 1)
-border_width_left = 2
-border_width_top = 2
-border_width_right = 2
-border_width_bottom = 2
-border_color = Color(1, 0.933333, 0.8, 1)
-corner_radius_top_left = 10
-corner_radius_top_right = 10
-expand_margin_left = 5.0
-expand_margin_top = 2.0
-expand_margin_right = 5.0
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_kheo6"]
+texture = ExtResource("2_erfda")
+modulate_color = Color(0.887758, 0.7705713, 1, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_208pi"]
 bg_color = Color(1, 0.411765, 0.45098, 1)
@@ -255,7 +247,7 @@ Button/fonts/font = ExtResource("1_lopid")
 Button/styles/disabled = SubResource("StyleBoxFlat_k0c1y")
 Button/styles/focus = SubResource("StyleBoxEmpty_lopid")
 Button/styles/hover = SubResource("StyleBoxFlat_myavk")
-Button/styles/normal = SubResource("StyleBoxFlat_lopid")
+Button/styles/normal = SubResource("StyleBoxTexture_kheo6")
 Button/styles/pressed = SubResource("StyleBoxFlat_208pi")
 CheckBox/colors/font_color = Color(1, 0.933333, 0.8, 1)
 CheckBox/colors/font_focus_color = Color(1, 0.933333, 0.8, 1)
