@@ -1,0 +1,72 @@
+[gd_scene format=3 uid="uid://dsaolus08cl12"]
+
+[ext_resource type="Texture2D" uid="uid://d1eox4t5l87hc" path="res://assets/theme/_.jpeg" id="1_v2lfg"]
+
+[node name="Main Menu" type="Control" unique_id=607682225]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=944107763]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_v2lfg")
+expand_mode = 1
+stretch_mode = 6
+metadata/_edit_use_anchors_ = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1332337782]
+custom_minimum_size = Vector2(200, 229.5)
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.117000006
+anchor_top = 0.35300002
+anchor_right = 0.291
+anchor_bottom = 0.754
+offset_left = 0.21598816
+offset_top = -0.2440033
+offset_right = -0.23199463
+offset_bottom = -0.0920105
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 20
+
+[node name="Start" type="Button" parent="VBoxContainer" unique_id=817330174]
+custom_minimum_size = Vector2(0, 45)
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 20
+text = "Start"
+
+[node name="Option" type="Button" parent="VBoxContainer" unique_id=436139211]
+custom_minimum_size = Vector2(0, 45)
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 20
+text = "Option
+"
+
+[node name="Credit" type="Button" parent="VBoxContainer" unique_id=768778373]
+custom_minimum_size = Vector2(0, 45)
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 20
+text = "Credit"
+
+[node name="Control" type="Control" parent="VBoxContainer" unique_id=707306503]
+layout_mode = 2
+size_flags_vertical = 4
+
+[node name="Exit" type="Button" parent="VBoxContainer" unique_id=2050178247]
+custom_minimum_size = Vector2(0, 45)
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_font_sizes/font_size = 20
+text = "Exit"

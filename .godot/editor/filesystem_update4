@@ -1,2 +1,5 @@
-res://assets/theme/soft_retro/soft_retro.tres
 res://scenes/Level/level1.tscn
+res://assets/theme/soft_retro/soft_retro.tres
+res://assets/entities/ character/player.gd
+res://scenes/Character/player.tscn
+res://scenes/Character/player.gd
